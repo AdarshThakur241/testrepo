@@ -1,0 +1,20 @@
+*{
+    color: black;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.innerDiv{
+    border-radius: 50px;
+    background: linear-gradient(315deg, #f0f0f0, #cacaca);
+    box-shadow:  -20px -20px 60px #bebebe,
+                 20px 20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+    margin-top: 160px;
+
+}
